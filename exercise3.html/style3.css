@@ -1,0 +1,72 @@
+.Container{  
+    display: flex;
+    flex-direction: row;
+}
+ 
+.item {
+    flex: 1;
+
+    padding: 20px;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    text-align: center;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    justify-content: flex-start;
+    font-size: 14px;
+    width: 100%;
+    height: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.Navitem {
+    color: white;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.Navitem:hover {
+    background-color: #bdbbbb;    
+}
+
+.Navhome {
+    color: white;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.Navhome:hover {
+    display: block;
+    background-color: #bdbbbb;
+}
+
+.Navhome:hover .Navhomeitem{
+    display: block;
+    background-color: white;
+    color: black;
+    position: relative;
+    text-align: flex-start;
+    
+}
+
+.Navhomeitem {
+    display: none;
+}
